@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/anmol/CLionProjects/CodingNinjas/Fundamentals_Easy/Sum_Pair/Sum_Pair.cpp
+iostream
+-
+vector
+-
+
