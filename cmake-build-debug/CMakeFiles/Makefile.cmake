@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
+  "../Fundamentals_Easy/Sum_Or_Product/CMakeLists.txt"
   "../Fundamentals_Easy/Sum_Pair/CMakeLists.txt"
   "CMakeFiles/3.20.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeCXXCompiler.cmake"
@@ -49,9 +50,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "../Fundamentals_Easy/Sum_Pair/Sum_Pair_Output/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "../Fundamentals_Easy/Sum_Or_Product/Sum_Or_Product_Output/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "../Fundamentals_Easy/Sum_Pair/Sum_Pair_Output/CMakeFiles/Sum_Pair.dir/DependInfo.cmake"
+  "../Fundamentals_Easy/Sum_Or_Product/Sum_Or_Product_Output/CMakeFiles/Sum_Or_Product.dir/DependInfo.cmake"
   )

@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/anmol/CLionProjects/CodingNinjas/Fundamentals_Easy/Sum_Or_Product/Sum_Or_Product.cpp
+iostream
+C:/Users/anmol/CLionProjects/CodingNinjas/Fundamentals_Easy/Sum_Or_Product/iostream
+

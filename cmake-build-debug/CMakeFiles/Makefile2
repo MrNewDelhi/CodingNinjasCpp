@@ -59,6 +59,21 @@ CMAKE_SOURCE_DIR = C:\Users\anmol\CLionProjects\CodingNinjas
 CMAKE_BINARY_DIR = C:\Users\anmol\CLionProjects\CodingNinjas\cmake-build-debug
 
 #=============================================================================
+# Directory level rules for directory ../Fundamentals_Easy/Sum_Or_Product/Sum_Or_Product_Output
+
+# Recursive "all" directory target.
+../Fundamentals_Easy/Sum_Or_Product/Sum_Or_Product_Output/all: ../Fundamentals_Easy/Sum_Or_Product/Sum_Or_Product_Output/CMakeFiles/Sum_Or_Product.dir/all
+.PHONY : ../Fundamentals_Easy/Sum_Or_Product/Sum_Or_Product_Output/all
+
+# Recursive "preinstall" directory target.
+../Fundamentals_Easy/Sum_Or_Product/Sum_Or_Product_Output/preinstall:
+.PHONY : ../Fundamentals_Easy/Sum_Or_Product/Sum_Or_Product_Output/preinstall
+
+# Recursive "clean" directory target.
+../Fundamentals_Easy/Sum_Or_Product/Sum_Or_Product_Output/clean: ../Fundamentals_Easy/Sum_Or_Product/Sum_Or_Product_Output/CMakeFiles/Sum_Or_Product.dir/clean
+.PHONY : ../Fundamentals_Easy/Sum_Or_Product/Sum_Or_Product_Output/clean
+
+#=============================================================================
 # Directory level rules for directory ../Fundamentals_Easy/Sum_Pair/Sum_Pair_Output
 
 # Recursive "all" directory target.
@@ -78,14 +93,17 @@ CMAKE_BINARY_DIR = C:\Users\anmol\CLionProjects\CodingNinjas\cmake-build-debug
 
 # The main recursive "all" target.
 all: ../Fundamentals_Easy/Sum_Pair/Sum_Pair_Output/all
+all: ../Fundamentals_Easy/Sum_Or_Product/Sum_Or_Product_Output/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: ../Fundamentals_Easy/Sum_Pair/Sum_Pair_Output/preinstall
+preinstall: ../Fundamentals_Easy/Sum_Or_Product/Sum_Or_Product_Output/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: ../Fundamentals_Easy/Sum_Pair/Sum_Pair_Output/clean
+clean: ../Fundamentals_Easy/Sum_Or_Product/Sum_Or_Product_Output/clean
 .PHONY : clean
 
 #=============================================================================
@@ -95,7 +113,7 @@ clean: ../Fundamentals_Easy/Sum_Pair/Sum_Pair_Output/clean
 ../Fundamentals_Easy/Sum_Pair/Sum_Pair_Output/CMakeFiles/Sum_Pair.dir/all:
 	$(MAKE) $(MAKESILENT) -f ..\Fundamentals_Easy\Sum_Pair\Sum_Pair_Output\CMakeFiles\Sum_Pair.dir\build.make ../Fundamentals_Easy/Sum_Pair/Sum_Pair_Output/CMakeFiles/Sum_Pair.dir/depend
 	$(MAKE) $(MAKESILENT) -f ..\Fundamentals_Easy\Sum_Pair\Sum_Pair_Output\CMakeFiles\Sum_Pair.dir\build.make ../Fundamentals_Easy/Sum_Pair/Sum_Pair_Output/CMakeFiles/Sum_Pair.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\anmol\CLionProjects\CodingNinjas\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Sum_Pair"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\anmol\CLionProjects\CodingNinjas\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Sum_Pair"
 .PHONY : ../Fundamentals_Easy/Sum_Pair/Sum_Pair_Output/CMakeFiles/Sum_Pair.dir/all
 
 # Build rule for subdir invocation for target.
@@ -113,6 +131,32 @@ Sum_Pair: ../Fundamentals_Easy/Sum_Pair/Sum_Pair_Output/CMakeFiles/Sum_Pair.dir/
 ../Fundamentals_Easy/Sum_Pair/Sum_Pair_Output/CMakeFiles/Sum_Pair.dir/clean:
 	$(MAKE) $(MAKESILENT) -f ..\Fundamentals_Easy\Sum_Pair\Sum_Pair_Output\CMakeFiles\Sum_Pair.dir\build.make ../Fundamentals_Easy/Sum_Pair/Sum_Pair_Output/CMakeFiles/Sum_Pair.dir/clean
 .PHONY : ../Fundamentals_Easy/Sum_Pair/Sum_Pair_Output/CMakeFiles/Sum_Pair.dir/clean
+
+#=============================================================================
+# Target rules for target ../Fundamentals_Easy/Sum_Or_Product/Sum_Or_Product_Output/CMakeFiles/Sum_Or_Product.dir
+
+# All Build rule for target.
+../Fundamentals_Easy/Sum_Or_Product/Sum_Or_Product_Output/CMakeFiles/Sum_Or_Product.dir/all:
+	$(MAKE) $(MAKESILENT) -f ..\Fundamentals_Easy\Sum_Or_Product\Sum_Or_Product_Output\CMakeFiles\Sum_Or_Product.dir\build.make ../Fundamentals_Easy/Sum_Or_Product/Sum_Or_Product_Output/CMakeFiles/Sum_Or_Product.dir/depend
+	$(MAKE) $(MAKESILENT) -f ..\Fundamentals_Easy\Sum_Or_Product\Sum_Or_Product_Output\CMakeFiles\Sum_Or_Product.dir\build.make ../Fundamentals_Easy/Sum_Or_Product/Sum_Or_Product_Output/CMakeFiles/Sum_Or_Product.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\anmol\CLionProjects\CodingNinjas\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Sum_Or_Product"
+.PHONY : ../Fundamentals_Easy/Sum_Or_Product/Sum_Or_Product_Output/CMakeFiles/Sum_Or_Product.dir/all
+
+# Build rule for subdir invocation for target.
+../Fundamentals_Easy/Sum_Or_Product/Sum_Or_Product_Output/CMakeFiles/Sum_Or_Product.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anmol\CLionProjects\CodingNinjas\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../Fundamentals_Easy/Sum_Or_Product/Sum_Or_Product_Output/CMakeFiles/Sum_Or_Product.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anmol\CLionProjects\CodingNinjas\cmake-build-debug\CMakeFiles 0
+.PHONY : ../Fundamentals_Easy/Sum_Or_Product/Sum_Or_Product_Output/CMakeFiles/Sum_Or_Product.dir/rule
+
+# Convenience name for target.
+Sum_Or_Product: ../Fundamentals_Easy/Sum_Or_Product/Sum_Or_Product_Output/CMakeFiles/Sum_Or_Product.dir/rule
+.PHONY : Sum_Or_Product
+
+# clean rule for target.
+../Fundamentals_Easy/Sum_Or_Product/Sum_Or_Product_Output/CMakeFiles/Sum_Or_Product.dir/clean:
+	$(MAKE) $(MAKESILENT) -f ..\Fundamentals_Easy\Sum_Or_Product\Sum_Or_Product_Output\CMakeFiles\Sum_Or_Product.dir\build.make ../Fundamentals_Easy/Sum_Or_Product/Sum_Or_Product_Output/CMakeFiles/Sum_Or_Product.dir/clean
+.PHONY : ../Fundamentals_Easy/Sum_Or_Product/Sum_Or_Product_Output/CMakeFiles/Sum_Or_Product.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

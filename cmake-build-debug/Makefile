@@ -128,6 +128,19 @@ Sum_Pair/fast:
 	$(MAKE) $(MAKESILENT) -f ..\Fundamentals_Easy\Sum_Pair\Sum_Pair_Output\CMakeFiles\Sum_Pair.dir\build.make ../Fundamentals_Easy/Sum_Pair/Sum_Pair_Output/CMakeFiles/Sum_Pair.dir/build
 .PHONY : Sum_Pair/fast
 
+#=============================================================================
+# Target rules for targets named Sum_Or_Product
+
+# Build rule for target.
+Sum_Or_Product: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Sum_Or_Product
+.PHONY : Sum_Or_Product
+
+# fast build rule for target.
+Sum_Or_Product/fast:
+	$(MAKE) $(MAKESILENT) -f ..\Fundamentals_Easy\Sum_Or_Product\Sum_Or_Product_Output\CMakeFiles\Sum_Or_Product.dir\build.make ../Fundamentals_Easy/Sum_Or_Product/Sum_Or_Product_Output/CMakeFiles/Sum_Or_Product.dir/build
+.PHONY : Sum_Or_Product/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -136,6 +149,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Sum_Or_Product
 	@echo ... Sum_Pair
 .PHONY : help
 
